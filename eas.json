@@ -1,0 +1,44 @@
+{
+  "cli": {
+    "version": "12.5.4",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development-simulator": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      }
+    },
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "ANDROID_SDK_ROOT": "/Users/samirgonzalez/Library/Android/sdk"
+      }
+    },
+    "preview": {
+      "android": {
+        "env": {
+          "ANDROID_SDK_ROOT": "/Users/samirgonzalez/Library/Android/sdk"
+        },
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "distribution": "store",
+      "ios": {
+        "autoIncrement": "version"
+      },
+      "android": {
+        "env": {
+          "ANDROID_SDK_ROOT": "/Users/samirgonzalez/Library/Android/sdk"
+        }
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

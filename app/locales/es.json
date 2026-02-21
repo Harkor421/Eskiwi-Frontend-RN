@@ -1,0 +1,490 @@
+{
+  "common": {
+    "welcome": "Bienvenido",
+    "settings": "Ajustes"
+  },
+  "notification": {
+    "title": "Tus Notificaciones",
+    "noNotifications": "¡No hay notificaciones en este momento!",
+    "discoverCreators": "Descubre nuevos o encuentra a tus creadores favoritos y compra un chat con ellos",
+    "settings": "Ajustes",
+    "newPost": "¡Subió una nueva publicación!",
+    "newLike": "¡Le gustó tu publicación!",
+    "newFollow": "¡Ahora te sigue!",
+    "newComment": "¡Comentó en tu publicación!",
+    "unknown": "Notificación desconocida",
+    "viewPost": "Ver Publicación",
+    "viewLike": "Ver Me Gusta",
+    "viewComment": "Ver Comentario",
+    "viewProfile": "Ver Perfil",
+    "viewDetails": "Ver Detalles"
+  },
+  "postImage":{
+    "disclaimer": "Desbloquea esta publicación convirtiéndote en miembro",
+    "join": "Únete ahora por"
+  },
+  "editTier":{
+    "editTier": "Editar nivel",
+    "name": "Nombre de nivel",
+    "price": "Precio",
+    "addBenefit": "Presiona enter para guardar cada beneficio",
+    "perMonth": "por mes",
+    "characters": "caracteres",
+    "save": "Guardar cambios",
+    "delete": "Cancelar"
+  },
+  "addInformation":{
+    "title": "Añade información",
+    "title2": "Añade un título",
+    "yourTitle": "Escribe tu título",
+    "description": "Añade una descripción",
+    "yourDescription": "Escribe tu descripción"
+  },
+  "freeMessage": "Mensaje gratis",
+  "saveChanges": "Guardar cambios",
+  "accountScreen": {
+    "generalSettings": "Ajustes Generales",
+    "editProfile": "Editar Perfil",
+    "editProfileDescription": "Edita tu perfil público aquí",
+    "securitySettings": "Ajustes de Seguridad",
+    "securitySettingsDescription": "Edita opciones importantes de tu cuenta",
+    "notificationSettings": "Ajustes de Notificaciones",
+    "notificationSettingsDescription": "Cambia los ajustes de notificaciones",
+    "languageSettings": "Ajustes de Idioma",
+    "languageSettingsDescription": "Cambia los ajustes de idioma",
+    "deleteAccount": "Eliminar cuenta",
+    "deleteAccountDescription": "Elimina tu cuenta",
+    "creatorSettings": "Ajustes del Creador",
+    "subscriptionSettings": "Ajustes de Suscripción",
+    "subscriptionSettingsDescription": "Cambia los precios de suscripción",
+    "chatSettings": "Ajustes de Chat",
+    "chatSettingsDescription": "Cambia los precios del chat",
+    "chatProducts": "Productos de Chat",
+    "chatProductsDescription": "Cambia los productos de chat",
+    "support": "Soporte",
+    "helpFaqs": "Ayuda / Preguntas Frecuentes",
+    "helpFaqsDescription": "Obtén ayuda",
+    "logout": "Cerrar Sesión"
+  },
+  "deleteAccount": {
+    "header": "Eliminar Cuenta",
+    "enterUsername": "Introduce tu nombre de usuario para confirmar",
+    "usernamePlaceholder": "Nombre de usuario",
+    "deleteAccount": "Eliminar Cuenta",
+    "error": "Error",
+    "failedToDelete": "No se pudo eliminar la cuenta. Inténtalo de nuevo.",
+    "usernameMismatch": "El nombre de usuario no coincide",
+    "success": "Cuenta eliminada con éxito"
+  },
+  "paymentsMenu":{
+    "title": "Panel de transacciones",
+    "paymentHistory": "Historial de transacciones",
+    "paymentHistoryDescription": "Obten el historial de tus transacciones recientes.",
+    "earnings": "Ingresos",
+    "earningsDescription": "Revisa tus ingresos por ser creador"
+  },
+  "transactionItem":{
+      "pending": "Pendiente",
+      "confirmed": "Confirmado",
+      "postComment": "Donación",
+      "gemPurchase": "Compra de gemas",
+      "chatMessage": "Mensaje de chat",
+      "chatRequest": "Solicitud de chat",
+      "to": "para",
+      "sent": "Enviado",
+      "received": "Recibido",
+      "subscriptionPurchase": "Suscripción",
+      "from": "de"
+  },
+  "purchase":{
+    "success": "Suscripción adquirida exitosamente",
+    "failed": "Ocurrió un error"
+  },
+  "accountSettings": {
+    "editProfile": "Editar Perfil",
+    "editAvatar": "Editar Avatar",
+    "editCover": "Editar Portada",
+    "name": "Nombre público",
+    "username": "Nombre de Usuario",
+    "personalLink": "Enlace Personal",
+    "bio": "Descripción del Perfil",
+    "bannerTitle": "Subir Banner",
+    "bannerText": "Selecciona una imagen para subir como tu banner.",
+    "uploadBanner": "Subir Banner",
+    "uploadAvatarTitle": "Subir Avatar",
+    "avatarText": "Selecciona una imagen para usar como tu avatar.",
+    "selectImage": "Seleccionar Imagen",
+    "updateAvatar": "Actualizar Avatar",
+    "cancel": "Cancelar",
+    "imageTooLarge": "El tamaño de la imagen supera el límite máximo de 1 MB.",
+    "compressionError": "Error al comprimir la imagen: ",
+    "uploadError": "Error al subir la imagen: ",
+    "unknownError": "Error desconocido",
+    "editBio": "Editar descripción",
+    "saveBio": "Guardar cambios",
+    "editUsername": "Editar Nombre de Usuario",
+    "saveUsername": "Guardar Nombre de Usuario",
+    "editDisplayName": "Editar Nombre Público",
+    "saveDisplayName": "Guardar Nombre Público"
+  },
+  "accountSecurityScreen": {
+    "header": "Ajustes de Seguridad",
+    "email": "Correo Electrónico",
+    "emailValue": "yuxingames@gmail.com",
+    "password": "Contraseña",
+    "passwordValue": "•••••••••••••••"
+  },
+  "gemScreen": {
+    "headerTitle": "¡Compra gemas!",
+    "headerSubtitle": "Cuando usas gemas, apoyas a tus creadores favoritos para que sigan produciendo contenido",
+    "purchaseError": "Ocurrió un error"
+  },
+  "gemSuccess":{
+    "description": "Disfruta y gasta tus gemas de forma responsable, muchas gracias!",
+    "title": "Un éxito absoluto!",
+    "enjoy": "Disfruta de tus gemas"
+  },
+  "exploreCreatorsScreen": {
+    "headerTitle": "Explora Creadores",
+    "subheaderTitle": "¿Estás buscando a alguien?",
+    "searchPlaceholder": "Escribe el nombre del creador aquí",
+    "recommendationText": "Si no sabes a quién buscar, podemos recomendarte un creador al azar.",
+    "suggestRandomCreator": "Sugerir un creador al azar"
+  },
+  "drawerNavigator": {
+    "home": "Inicio",
+    "earnings": "Pagos",
+    "favourites": "Favoritos",
+    "manageSubscriptions": "Gestionar Suscripciones",
+    "profileSettings": "Ajustes del Perfil"
+  },
+  "customDrawerContent": {
+    "gems": "gemas"
+  },
+  "chatScreen": {
+    "title": "Tus Chats",
+    "settings": "Ajustes",
+    "openChats": "Chats Abiertos",
+    "chatRequests": "Solicitudes"
+  },
+  "requestedChats": {
+    "title": "No hay solicitudes de chat disponibles",
+    "description": "Si un usuario te envía un mensaje, recibirás su solicitud de chat aquí."
+  },
+  "horizontalCreatorList": {
+    "headerTitle": "Creadores Destacados",
+    "viewMore": "Ver Más"
+  },
+  "timeAgo": {
+    "year": "hace un año",
+    "years": "hace {{count}} años",
+    "month": "hace un mes",
+    "months": "hace {{count}} meses",
+    "day": "hace un día",
+    "days": "hace {{count}} días",
+    "hour": "hace una hora",
+    "hours": "hace {{count}} horas",
+    "minute": "hace un minuto",
+    "minutes": "hace {{count}} minutos",
+    "second": "hace un segundo",
+    "seconds": "hace {{count}} segundos"
+  },
+  "commentItem": {
+    "viewMore": "Ver más",
+    "viewLess": "Ver menos",
+    "reply": "Responder",
+    "likes": "{{count}} me gustas",
+    "hide": "Reportar",
+    "hideReplies": "- Ocultar respuestas ({{count}})",
+    "viewReplies": "+ Ver respuestas ({{count}})",
+    "viewMoreReplies": "Ver más respuestas"
+  },
+  "creatorScreen": {
+    "posts": "Publicaciones",
+    "subscriptions": "Suscripciones",
+    "chat": "Chat",
+    "followers": "{{count}} seguidores",
+    "subs": "{{count}} suscriptores",
+    "noProducts": "Límite de suscripciones alcanzado",
+    "description": "Esta es una descripción de ejemplo de un creador en la plataforma eskiwi para verificar que todo funcione correctamente"
+  },
+  "comments": {
+    "sendGems": "Enviar Gemas",
+    "writeComment": "Escribe tu comentario",
+    "sendComment": "Enviar Comentario",
+    "noCommentsYet": "Aún no hay comentarios. ¡Sé el primero en comentar!",
+    "viewMore": "Ver más",
+    "reply": "Responder",
+    "likes": "{{count}} me gustas",
+    "commentText": "Este es un comentario de prueba. ¡Hola! Estoy teniendo un mal día, este es un comentario real. Xddd, me parece increíble hacerlo. Esto es genial, muy guay"
+  },
+  "gems": "gemas",
+  "addGems":{
+    "title": "Añadir gemas",
+    "description": "Añade gemas para apoyar a tus creadores favoritos.",
+    "comment": "Tu comentario",
+    "sendComment":"Enviar Comentario",
+    "availableGems": "Gemas:"
+  },
+    "reportComment": {
+      "title": "Reportar Comentario",
+      "innapropiate": "Contenido inapropiado",
+      "harassment": "Acoso",
+      "violence": "Violencia",
+      "hateSpeech": "Discurso de odio",
+      "nudeSpeech": "Desnudez",
+      "copyright": "Violación de derechos de autor",
+      "spam": "Spam",
+      "other": "Otro"
+    }, 
+  "manageSubscriptions": {
+    "subscriptions": "Mis Suscripciones",
+    "subscribers": "Mis Suscriptores"
+  },
+  "chatSettings": {
+    "header": "Editar Ajustes de Chat",
+    "gems": "Gemas por mensaje",
+    "additionalgems": "Gemas adicionales",
+    "saveSettings": "Guardar ajustes",
+    "rules": "Reglas de chat",
+    "rulePlaceholder": "Ingresa la regla y presiona enter",
+    "characters": "caracteres"
+  },
+  "mySubscriptions": {
+    "noSubscriptions": "¡No hay suscripciones en este momento!",
+    "discoverCreators": "Descubre nuevos o encuentra a tus creadores favoritos y suscríbete a ellos",
+    "findCreators": "Buscar Creadores"
+  },
+  "subscriptionPreview": {
+    "cancel": "Cancelar"
+  },
+  "cancelSubscription": {
+    "cancelSubscription": "Cancelar Suscripción",
+    "postsTab": "Contenido de la Pestaña de Publicaciones",
+    "productsTab": "Contenido de la Pestaña de Productos",
+    "chatTab": "Contenido de la Pestaña de Chat",
+    "bio": "Esta es una descripción de ejemplo de un creador en la plataforma eskiwi para verificar que todo funcione correctamente"
+  },
+  "emailVerificationScreen": {
+    "description": "Hemos enviado un correo a {{email}}. Por favor, introduce el código del correo.",
+    "enterCode": "Introduce el código de 6 dígitos enviado a tu correo.",
+    "verifyButton": "Verificar Código",
+    "error": "Error",
+    "invalidCode": "El código de verificación no es válido. Inténtalo de nuevo.",
+    "success": "Éxito",
+    "codeValidated": "El código de verificación ha sido validado exitosamente."
+  },
+  "loginScreen": {
+    "headerText": "Iniciar Sesión",
+    "description": "Introduce tu correo electrónico y contraseña a continuación para iniciar sesión.",
+    "emailLabel": "Correo Electrónico",
+    "emailPlaceholder": "Dirección de Correo Electrónico",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "errorMessage": "Correo electrónico o contraseña no válidos",
+    "submitButton": "Iniciar Sesión",
+    "notRegistered": "¿Aún no te has registrado?",
+    "registerHere": "Regístrate aquí",
+    "bannedMessage": "Hemos detectado una violación de nuestros términos y condiciones, por lo que tu cuenta ha sido baneada de forma permanente.",
+    "okButton": "Irme a mi casa",
+    "invalidEmail": "Ingresa un correo electrónico válido"
+ 
+  },
+  "validation": {
+    "required": "Se requiere {{field}}"
+    },
+  "registerScreen": {
+    "headerText": "Crear Cuenta",
+    "description": "Introduce tus datos a continuación para crear una nueva cuenta",
+    "firstNameLabel": "Nombre",
+    "firstNamePlaceholder": "Nombre",
+    "lastNameLabel": "Apellido",
+    "lastNamePlaceholder": "Apellido",
+    "usernameLabel": "Nombre de Usuario",
+    "usernamePlaceholder": "Nombre de Usuario",
+    "emailLabel": "Correo Electrónico",
+    "emailPlaceholder": "Correo Electrónico",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Contraseña",
+    "confirmPasswordLabel": "Confirmar Contraseña",
+    "confirmPasswordPlaceholder": "Confirmar Contraseña",
+    "birthdateLabel": "Fecha de Nacimiento",
+    "errorMessage": "Error al crear cuenta, por favor inténtalo de nuevo",
+    "successMessage": "Cuenta creada exitosamente, por favor inicia sesión",
+    "acceptTerms": "Acepto los términos y condiciones",
+    "submitButton": "Registrar",
+    "terms": "Haz click aquí para leer los términos",
+    "displayNameLabel": "Nombre público",
+    "displayNamePlaceholder": "Nombre público",
+    "ageRestrictionError": "Error de restricción de edad",
+    "ageRestrictionMessage": "Debes tener al menos 18 años para registrarte en esta aplicación.",
+    "registrationError": "Error"
+  },
+  "recoverPassword": {
+    "title": "Recupera tu contraseña",
+    "emailPlaceholder": "Correo electrónico",
+    "newPasswordPlaceholder": "Nueva contraseña",
+    "confirmPasswordPlaceholder": "Confirma la nueva contraseña",
+    "saveButton": "Guardar",
+    "cancelButton": "Cancelar",
+    "error": "Error",
+    "allFieldsRequired": "Todos los campos deben estar llenos.",
+    "passwordMismatch": "Las contraseñas no coinciden."
+  },
+    "createPostScreen": {
+      "addMedia": "Agregar medios",
+      "headerTitle": "Añadir contenido para:",
+      "next": "Siguiente",
+      "library": "Toda la biblioteca",
+      "crop": "Recortar"
+    },
+    "card": {
+      "donate": "Dar"
+    },
+    "postDescription": {
+      "viewLess": "Ver menos",
+      "viewMore": "Ver más"
+    },
+    "languages": {
+      "title": "Editar configuración de idioma",
+      "english": "Inglés",
+      "spanish": "Español"
+    },
+    "editPostDetails": {
+      "header": "Añadir información importante",
+      "addTitle": "Añadir un título",
+      "addDescription": "Añadir una descripción",
+      "subscriptionTier": "Visibilidad",
+      "subscriptionDescription": "Para todos"
+    },
+    "productItem":{
+      "subscribe": "Suscríbete ahora",
+      "cancelSub": "Cancelar suscripción",
+      "cancelAnyTime": "Cancela en cualquier momento",
+      "edit": "Editar nivel"
+    },
+    "productScreen":{
+      "perMonth": "por mes"
+    },
+    "sendPostModal": {
+      "addTitle": "Añadir un título",
+      "addDescription": "Añadir una descripción",
+      "subscriptionTier": "Visibilidad",
+      "subscriptionDescription": "Para todos",
+      "disclaimer": "Antes de publicar este post, verifica que la información sea correcta.",
+      "publish": "¡Sí, publicarlo!",
+      "cancel": "Cancelar",
+      "header": "Publicar",
+      "uploading": "Publicando"
+    },
+    "shareText": "¡Mira este post!",
+    "next": "Siguiente",
+    "postManagement": {
+      "reportPostTitle": "Reportar publicación",
+      "reportPostDescription": "Todos los reportes serán manejados en menos de 24 horas",
+      "deletePostTitle": "Eliminar publicación",
+      "deletePostDescription": "Una vez eliminada, la publicación será removida permanentemente",
+      "reasonTitle": "¿Por qué estás reportando esta publicación?",
+      "spam": "Es spam",
+      "inappropriate": "Es inapropiado",
+      "harassment": "Es acoso o intimidación",
+      "falseInfo": "Es información falsa",
+      "hateSpeech": "Contiene discurso de odio",
+      "submitReport": "Enviar reporte",
+      "errorTitle": "Error",
+      "errorMessage": "Por favor selecciona al menos una razón para reportar.",
+      "successTitle": "Reporte enviado",
+      "successMessage": "Reportaste la publicación por: {{reasons}}",
+      "deletePostConfirmation": "Esta publicación será eliminada permanentemente",
+      "deletePostConfirm": "Eliminar publicación",
+      "sendReport": "Enviar reporte",
+      "reportReasons": "Razones del reporte"
+    },
+    "userManagement": {
+      "reportUserTitle": "Reportar usuario",
+      "reportUserDescription": "Todos los reportes serán manejados en menos de 24 horas",
+      "deleteUserTitle": "Banear usuario",
+      "deleteUserDescription": "El usuario perderá el acceso a su cuenta y quedará borrada",
+      "blockUserTitle": "Bloquear usuario",
+      "blockUserDescription": "Una vez bloqueado, no podrás ver sus publicaciones",
+      "reasonTitle": "¿Por qué estás reportando esta publicación?",
+      "spam": "Es spam",
+      "inappropriate": "Es inapropiado",
+      "harassment": "Es acoso o intimidación",
+      "falseInfo": "Es información falsa",
+      "hateSpeech": "Contiene discurso de odio",
+      "submitReport": "Enviar reporte",
+      "errorTitle": "Error",
+      "errorMessage": "Por favor selecciona al menos una razón para reportar.",
+      "successTitle": "Reporte enviado",
+      "successMessage": "Reportaste la publicación por: {{reasons}}",
+      "deletePostConfirmation": "Esta publicación será eliminada permanentemente",
+      "deletePostConfirm": "Eliminar publicación",
+      "confirmBanTitle": "Confirmar Prohibición",
+      "confirmBanMessage": "¿Estás seguro de que quieres prohibir a este usuario?",
+      "userBannedTitle": "Usuario Prohibido",
+      "userBannedMessage": "El usuario ha sido prohibido exitosamente.",
+      "confirm": "Confirmar",
+      "cancel": "Cancelar",
+      "sendReport": "Enviar reporte"
+
+    },
+    "cancel": "Cancelar",
+    "followButton": {
+      "follow": "Seguir",
+      "unfollow": "Siguiendo",
+      "editProfile": "Editar perfil"
+    },
+    "changeVisibility":{
+      "title": "Cambiar visibilidad",
+      "subtitle": "Escoge quienes pueden ver la publicación",
+      "placeholder": "Escoge una o varias opciones...",
+      "visibleForAll": "Visible para todos"
+    },
+    "chatRules": {
+      "editChatSettings": "Editar configuración de chat",
+      "editTier": "Editar nivel",
+      "createChatNow": "Crear chat ahora",
+      "cancelSubscription": "Cancelar suscripción en cualquier momento"
+    },
+    "DirectMessageScreen":{
+        "firstMessage": "¡Tu primer mensaje es gratis!",
+        "firstMessageDescription": "Solicitar un chat te da derecho a un mensaje gratis. Utilízalo sabiamente.",
+        "refund": "Solicitar reembolso",
+        "acceptRequest": "Aceptar solicitud",
+        "denyRequest": "Rechazar solicitud",
+        "report": "Reportar",
+        "gemsLeft": "Gemas"
+    },
+    "settingSaveSuccessful": "Ajustes guardados correctamente.",
+    "followers": "Seguidores",
+    "notificationSettings": {
+      "title": "Configuración de notificaciones",
+      "unreadMessages": {
+        "title": "Mensajes no leídos",
+        "text": "Recibe notificaciones de mensajes no leídos nuevos."
+      },
+      "newPost": {
+        "title": "Nuevo post",
+        "text": "Recibe notificaciones cuando se publique un nuevo post."
+      },
+      "newAboutEskiwi": {
+        "title": "Novedades sobre Eskiwi",
+        "text": "Mantente al tanto con notificaciones sobre nuevos desarrollos de Eskiwi."
+      },
+      "creatorNotifications": "Notificaciones de creadores",
+      "newSub": {
+        "title": "Nuevos suscriptores",
+        "text": "Recibe alertas cuando alguien se suscriba a tu contenido."
+      },
+      "newComment": {
+        "title": "Nuevos comentarios",
+        "text": "Recibe notificaciones sobre nuevos comentarios en tus publicaciones."
+      },
+      "newLike": {
+        "title": "Nuevos me gusta",
+        "text": "Mantente informado sobre los nuevos me gusta en tu contenido."
+      }
+    }
+}

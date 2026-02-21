@@ -1,0 +1,86 @@
+{
+  "expo": {
+    "name": "Eskiwi",
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./app/assets/fonts/geist/GeistMono-Regular.otf",
+            "./app/assets/fonts/geist/GeistMono-Bold.otf",
+            "./app/assets/fonts/geist/GeistMono-Black.otf",
+            "./app/assets/fonts/geist/GeistMono-Medium.otf",
+            "./app/assets/fonts/geist/GeistMono-SemiBold.otf",
+            "./app/assets/fonts/geist/GeistMono-UltraBlack.otf",
+            "./app/assets/fonts/geist/GeistMono-SemiBold.otf",
+            "./app/assets/fonts/geist/GeistMono-UltraLight.otf",
+            "./app/assets/fonts/work-sans/WorkSans-Thin.ttf",
+            "./app/assets/fonts/work-sans/WorkSans-Light.ttf",
+            "./app/assets/fonts/work-sans/WorkSans-Regular.ttf",
+            "./app/assets/fonts/work-sans/WorkSans-Medium.ttf",
+            "./app/assets/fonts/work-sans/WorkSans-SemiBold.ttf",
+            "./app/assets/fonts/work-sans/WorkSans-Bold.ttf",
+            "./app/assets/fonts/work-sans/WorkSans-ExtraBold.ttf",
+            "./app/assets/fonts/work-sans/WorkSans-Black.ttf",
+            "./app/assets/fonts/work-sans/WorkSans-ExtraLight.ttf",
+            "./app/assets/fonts/work-sans/WorkSans-ExtraBoldItalic.ttf",
+            "./app/assets/fonts/work-sans/WorkSans-BoldItalic.ttf",
+            "./app/assets/fonts/work-sans/WorkSans-SemiBoldItalic.ttf",
+            "./app/assets/fonts/work-sans/WorkSans-Italic.ttf"
+          ]
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos in order to upload content.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
+    "scheme": "eskiwi",
+    "slug": "eskiwi",
+    "version": "1.0.59",
+    "orientation": "portrait",
+    "icon": "./app/assets/eskiwi-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#202024"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eskiwi.eskiwi"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/eskiwi-icon.png",
+        "backgroundColor": "#0e1121",
+        "permissions": [
+          "READ_MEDIA_IMAGES",
+          "WRITE_EXTERNAL_STORAGE"
+        ]
+      },
+      "package": "com.eskiwi.eskiwi",
+      "versionCode": 64
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4a15fd46-1cdd-41c2-a409-9cc90b20836e"
+      }
+    }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-2801407808045625~4212104299",
+    "ios_app_id": "ca-app-pub-2801407808045625~4796974958"
+  }
+}
