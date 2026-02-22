@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <em>Built with love since 2024 — this project never made it to production, but the vision was fully realized in code. It was ready.</em>
+  <em>In development since 2024. Feature-complete but unreleased.</em>
 </p>
 
 ---
@@ -25,7 +25,7 @@
 
 **Eskiwi** is a social platform designed to empower content creators with real tools to monetize their work, connect with their audience, and grow their brand. Think of it as a space where creators can share exclusive content, earn through multiple revenue streams, and have meaningful interactions with their supporters — all from a single app.
 
-I started working on Eskiwi back in **2024** as a passion project. Over time it grew into a fully-featured application with authentication, payments, real-time messaging, subscriptions, and more. While it never saw the light of day and never made it to production, the app was feature-complete and ready to ship. Sometimes projects don't launch — but the work, the lessons, and the code remain.
+Development on Eskiwi started in **2024**. Over time it grew into a fully-featured application with authentication, payments, real-time messaging, subscriptions, and more. The app reached a feature-complete state but was never released to production.
 
 ---
 
@@ -145,5 +145,5 @@ This project is not licensed for public use. All rights reserved.
 ---
 
 <p align="center">
-  <sub>Eskiwi — built in 2024, shelved before launch. The app that was ready but never shipped.</sub>
+  <sub>Eskiwi — in development since 2024.</sub>
 </p>
