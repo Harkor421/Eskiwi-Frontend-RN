@@ -1,149 +1,77 @@
-<p align="center">
-  <img src="app/assets/eskiwi-icon.png" alt="Eskiwi" width="120" />
-</p>
+<div align="center">
 
-<h1 align="center">Eskiwi</h1>
+<img src="app/assets/sign-in-logo.png" alt="Eskiwi-Frontend-RN" width="120" />
 
-<p align="center">
-  <strong>A creator-first social platform built for monetization, connection, and expression.</strong>
-</p>
+# Eskiwi-Frontend-RN
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React_Native-0.74.5-61DAFB?style=flat-square&logo=react" alt="React Native" />
-  <img src="https://img.shields.io/badge/Expo-51-000020?style=flat-square&logo=expo" alt="Expo" />
-  <img src="https://img.shields.io/badge/Platform-iOS%20%7C%20Android-lightgrey?style=flat-square" alt="Platform" />
-  <img src="https://img.shields.io/badge/Status-Unreleased-red?style=flat-square" alt="Status" />
-</p>
+### Una red social donde los creadores cobran
 
-<p align="center">
-  <em>In development since 2024. Feature-complete but unreleased.</em>
-</p>
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white) ![Cannon-es](https://img.shields.io/badge/Cannon--es-990000?style=for-the-badge&logo=webgl&logoColor=white) ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
+
+[**🌐 Ver en vivo**](https://eskiwi.com) · [**📦 Repositorio**](https://github.com/Harkor421/Eskiwi-Frontend-RN)
+
+</div>
 
 ---
 
-## About
+## 📖 Sobre el proyecto
 
-**Eskiwi** is a social platform designed to empower content creators with real tools to monetize their work, connect with their audience, and grow their brand. Think of it as a space where creators can share exclusive content, earn through multiple revenue streams, and have meaningful interactions with their supporters — all from a single app.
+Cliente móvil de **Eskiwi**: plataforma social pensada para creadores, con propinas dentro de la app, suscripciones por niveles, mensajería en tiempo real y pagos con Stripe y RevenueCat.
 
-Development on Eskiwi started in **2024**. Over time it grew into a fully-featured application with authentication, payments, real-time messaging, subscriptions, and more. The app reached a feature-complete state but was never released to production.
+## ✨ Qué hace
 
----
+- Propinas y suscripciones por niveles
+- Mensajería en tiempo real y notificaciones
+- Pagos con Stripe (SDK nativo) y RevenueCat
+- Multi-idioma con i18next y detector de idioma del dispositivo
+- Cámara, galería, blur y bottom sheets nativos
 
-## Features
+## 🧰 Stack
 
-### Content & Feed
-- Post creation with multi-image support, cropping, and album organization
-- Curated feed with recommended posts and creator discovery
-- Like, comment, share, and interact with posts
-- Subscription-gated content with tier-based access
-
-### Monetization
-- **Gems** — In-app currency for tipping creators on posts and comments
-- **Subscriptions** — Up to 3 customizable tiers per creator with unique benefits
-- **Paid Messaging** — Creators can set pricing for direct message requests
-- **Ad Revenue** — Google AdMob integration
-
-### Real-Time Messaging
-- Direct messaging with chat requests and acceptance flow
-- Image sharing in conversations
-- Powered by Socket.IO for real-time delivery
-
-### Creator Tools
-- Earnings dashboard with daily transaction breakdowns and visual charts
-- Subscriber management and tier customization
-- Post management (edit, delete, organize)
-- Creator verification via Instagram
-
-### User Experience
-- Dark-mode-first design with a bold pink accent palette
-- Smooth animations with Lottie and React Native Reanimated
-- Haptic feedback on interactions
-- Full internationalization (English & Spanish)
-- Push notifications
-- Deep linking for profiles and posts
-
----
-
-## Tech Stack
-
-| Layer | Technology |
+| | |
 |---|---|
-| **Framework** | React Native 0.74 + Expo 51 |
-| **Navigation** | React Navigation v6 (Stack, Tabs, Drawer) |
-| **State** | React Context API |
-| **Networking** | Apisauce, Axios, Socket.IO |
-| **Forms** | Formik + Yup |
-| **UI** | React Native Paper, Bottom Sheet, Reanimated |
-| **Payments** | RevenueCat (IAP), Stripe |
-| **Ads** | Google Mobile Ads |
-| **Auth** | JWT + Expo Secure Store |
-| **Media** | Image Crop Picker, Camera Roll, Fast Image |
-| **Charts** | Gifted Charts, Chart Kit |
-| **i18n** | i18next + react-i18next |
-| **Notifications** | Expo Notifications |
-| **Animations** | Lottie, Confetti Cannon |
+| **Lenguajes y runtime** | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) |
+| **3D, gráficos y juego** | ![Cannon-es](https://img.shields.io/badge/Cannon--es-990000?style=for-the-badge&logo=webgl&logoColor=white) |
+| **Móvil y escritorio** | ![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white) |
+| **Backend** | ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white) |
+| **Servicios e integraciones** | ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white) |
 
----
-
-## Project Structure
+## 📂 Estructura
 
 ```
-app/
-├── api/                  # API client, endpoints, and service layer
-├── assets/               # Icons, fonts, images, Lottie animations
-├── auth/                 # Auth context, token storage, session management
-├── components/           # Reusable UI components organized by feature
-│   ├── accountSettings/
-│   ├── buyGems/
-│   ├── chat/
-│   ├── earnings/
-│   ├── exploreCreator/
-│   ├── forms/
-│   ├── imagePicker/
-│   ├── manageSubscriptions/
-│   ├── modals/
-│   ├── post/
-│   └── ...
-├── config/               # Colors, constants, and app configuration
-├── hooks/                # Custom React hooks
-├── locales/              # i18n translation files (en, es)
-├── navigation/           # Navigation structure and route definitions
-├── screens/              # Full-page screen components
-└── utils/                # Utility functions and helpers
+app/assets      # Rutas de la aplicación (App Router)
+app/components  # Rutas de la aplicación (App Router)
+android/app     # Proyecto nativo de Android
+android/gradle  # Proyecto nativo de Android
 ```
 
----
-
-## Getting Started
-
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v18+)
-- [Expo CLI](https://docs.expo.dev/get-started/installation/)
-- [EAS CLI](https://docs.expo.dev/eas/cli/) (for production builds)
-- iOS Simulator, Android Emulator, or a physical device with Expo Go
-
-### Installation
+## 🚀 Empezar
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/Eskiwi-Frontend-RN.git
+git clone https://github.com/Harkor421/Eskiwi-Frontend-RN.git
 cd Eskiwi-Frontend-RN
-
-# Install dependencies
 npm install
-
-# Start the development server
-npx expo start
+npm run start
 ```
 
+## 📜 Scripts
+
+| Comando | Qué hace |
+|---|---|
+| `npm run start` | Arranca la aplicación |
+| `npm run android` | Corre la app en el emulador de Android |
+| `npm run ios` | Corre la app en el simulador de iOS |
+| `npm run web` | Corre la app en el navegador |
+| `npm run debug` | `open 'rndebugger://set-debugger-loc?host=localhost&port=19001'` |
+
+## ☁️ Despliegue
+
+- **EAS Build** (Expo)
+
 ---
 
-## License
+<div align="center">
 
-This project is not licensed for public use. All rights reserved.
+Hecho por [**Samir González**](https://github.com/Harkor421)
 
----
-
-<p align="center">
-  <sub>Eskiwi — in development since 2024.</sub>
-</p>
+</div>
